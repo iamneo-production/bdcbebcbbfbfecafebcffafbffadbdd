@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../ToDo/TODo.css'
-const App = () => {
+const App1 = () => {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
 
@@ -55,4 +55,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App1;
